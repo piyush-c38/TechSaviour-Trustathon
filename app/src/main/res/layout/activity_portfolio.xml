@@ -13,10 +13,11 @@
         android:inputType="textMultiLine"
         android:text="Account: XYZ"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="360dp" />
+        tools:layout_editor_absoluteY="360dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/editTextTextMultiLine2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -24,10 +25,11 @@
         android:inputType="textMultiLine"
         android:text="Equity Status: XYZ"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="296dp" />
+        tools:layout_editor_absoluteY="296dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/editTextTextMultiLine3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -35,10 +37,11 @@
         android:inputType="textMultiLine"
         android:text="Name: XYZ"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="230dp" />
+        tools:layout_editor_absoluteY="230dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/editTextTextMultiLine4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -46,7 +49,8 @@
         android:inputType="textMultiLine"
         android:text="Name: XYZ"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="230dp" />
+        tools:layout_editor_absoluteY="230dp"
+        tools:ignore="MissingConstraints"/>
 
     <EditText
         android:id="@+id/editTextText3"
@@ -56,6 +60,7 @@
         android:inputType="text"
         android:text="My Portfolio"
         tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="93dp" />
+        tools:layout_editor_absoluteY="93dp"
+        tools:ignore="MissingConstraints"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
