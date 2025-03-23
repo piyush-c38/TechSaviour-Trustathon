@@ -21,6 +21,6 @@
         android:id="@+id/btnBuySellStocks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Buy/Sell Stocks"/>
+        android:text="Buy/Sell Stocks" />
 
 </LinearLayout>
