@@ -14,7 +14,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.nio.charset.StandardCharsets
 
-object TrusTokenHandler {
+object NavigationHelper {
     fun navigateToBankingServices(context: Context, isAuthenticated: Boolean) {
         val intent = Intent(context, BankingServicesActivity::class.java)
         intent.putExtra("AUTHENTICATED", isAuthenticated)
