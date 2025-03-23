@@ -6,8 +6,8 @@
     android:padding="16dp">
 
     <TextView
-        android:layout_width="361dp"
-        android:layout_height="165dp"
+        android:layout_width="350dp"
+        android:layout_height="187dp"
         android:text="Banking Services"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -22,6 +22,6 @@
         android:id="@+id/btnFundTransfer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fund Transfer"/>
+        android:text="Fund Transfer" />
 
 </LinearLayout>
