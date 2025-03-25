@@ -14,20 +14,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.nio.charset.StandardCharsets
 
-object NavigationHelper {
-    fun navigateToBankingServices(context: Context, isAuthenticated: Boolean) {
-        val intent = Intent(context, BankingServicesActivity::class.java)
-        intent.putExtra("AUTHENTICATED", isAuthenticated)
-        context.startActivity(intent)
-    }
-
-    fun navigateToStocks(context: Context, isAuthenticated: Boolean) {
-        val intent = Intent(context, StocksActivity::class.java)
-        intent.putExtra("AUTHENTICATED", isAuthenticated)
-        context.startActivity(intent)
-    }
-}
-
 class TrusToken : AppCompatActivity() {
     private lateinit var btnDetectToken: Button
     private lateinit var btnLogin: Button
@@ -152,7 +138,7 @@ class TrusToken : AppCompatActivity() {
         }
     }
 
-    private fun detectSmartCard(): Int {
+     fun detectSmartCard(): Int {
         val usbManager = getSystemService(Context.USB_SERVICE) as UsbManager?
         usbManager?.deviceList?.values?.forEach { device ->
             if (isSmartCardReader(device)) {

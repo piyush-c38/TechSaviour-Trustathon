@@ -654,3 +654,9 @@ Java_com_example_trustoken_1starter_TrusToken_decrypt(JNIEnv *env, jobject thiz,
     return env->NewStringUTF(hexDecryptedData.c_str());
 }
 } // extern "C"
+
+extern "C"
+JNIEXPORT jstring JNICALL
+Java_com_example_trustoken_1starter_Portfolio_decrypt(JNIEnv *env, jobject thiz, jstring string) {
+    // TODO: implement decrypt()
+}
